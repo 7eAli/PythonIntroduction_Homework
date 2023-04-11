@@ -17,8 +17,11 @@ while count != number + 1:
     count += 1
 print(numbers)
 
-new_numbers = list()
-for i in range(0, len(numbers)):       
-    new_numbers.append(numbers[i - 2])
+# new_numbers = list()
+# for i in range(0, len(numbers)):       
+#     new_numbers.append(numbers[i - 2])
 
-print(new_numbers) 
+# print(new_numbers) 
+
+numbers = numbers[len(numbers) - 2: len(numbers)] + numbers[0:len(numbers) - 2] 
+print(numbers)
