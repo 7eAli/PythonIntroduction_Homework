@@ -6,7 +6,7 @@ import random
 
 size = int(
             input("Введите размер списка: "))
-numbers = [random.randint(1, 10) for i in range(size + 1)]
+numbers = [random.randint(1, 10) for i in range(size)]
 print(numbers)
 
 numbers = list(

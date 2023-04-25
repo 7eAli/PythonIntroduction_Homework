@@ -16,7 +16,7 @@ def Show_Rising_Sequence(list_of_numbers, start_pos):
 
 size = int(
             input("Введите размер списка: "))
-numbers = [random.randint(1, 10) for i in range(size + 1)]
+numbers = [random.randint(1, 10) for i in range(size)]
 print(numbers)
 
 sequences = []
