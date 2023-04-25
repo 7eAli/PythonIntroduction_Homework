@@ -22,4 +22,4 @@ print(numbers)
 sequences = []
 for i in range(0, len(numbers) - 1):
     sequences.append(Show_Rising_Sequence(numbers, i))
-    print(sequences[i])
+    if len(sequences[i]) > 1: print(sequences[i])
